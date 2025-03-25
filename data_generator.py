@@ -24,14 +24,3 @@ for ll in range(10001, 6, -1):
         print(m)
         for i in range(m):
             print(i, np.random.randint(1, 21), np.random.randint(int(size/m), 1050001))
-        print("""8
-1 2
-1 3
-1 4
-2 4
-2 5
-3 5
-3 6
-4 6
-1
-1 5""")
